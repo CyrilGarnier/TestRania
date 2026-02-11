@@ -1,11 +1,32 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Portfolio - Rannia Zaki 🚀
 
-  <h1>Built with AI Studio</h2>
+Bienvenue sur le dépôt de mon portfolio professionnel. Je suis **Rannia Zaki**, Apprentie Chef de Projet Digitaux chez Enedis.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ✨ À propos
+Ce projet est un CV interactif moderne conçu pour présenter mon parcours, mes compétences en digitalisation et mes expériences professionnelles.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠️ Technologies utilisées
+- **React 19** - Bibliothèque UI
+- **TypeScript** - Typage statique pour un code robuste
+- **Tailwind CSS** - Design moderne et responsive
+- **Lucide React** - Iconographie épurée
 
-</div>
+## 🚀 Installation locale
+
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-username/portfolio-rannia.git
+   ```
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+3. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+
+## 📩 Contact
+- **Email** : ranniazaki@gmail.com
+- **Ville** : Évry-Courcouronnes
