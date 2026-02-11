@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
             <div className="w-12 h-12 bg-slate-900 text-white rounded-2xl flex items-center justify-center font-black group-hover:bg-emerald-500 transition-colors shadow-lg">
               RZ
             </div>
-            <span className={`font-black text-xl tracking-tighter transition-colors ${scrolled ? 'text-slate-900' : 'text-slate-900'}`}>Rannia Zaki</span>
+            <span className={`font-black text-xl tracking-tighter transition-colors ${scrolled ? 'text-slate-900' : 'text-slate-900'}`}>Rania Zaki</span>
           </div>
           
           <div className="hidden lg:block">

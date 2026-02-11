@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
-              Je suis <span className="text-slate-900 font-bold underline decoration-emerald-300 decoration-4 underline-offset-4">Rannia Zaki</span>, Chef de Projet Digitaux. J'accompagne la transformation des entreprises à travers des solutions numériques innovantes et humaines.
+              Je suis <span className="text-slate-900 font-bold underline decoration-emerald-300 decoration-4 underline-offset-4">Rania Zaki</span>, Chef de Projet Digitaux. J'accompagne la transformation des entreprises à travers des solutions numériques innovantes et humaines.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-12 max-w-xl mx-auto lg:mx-0">
@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
                <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/20 to-blue-400/20 rounded-[80px] blur-3xl -z-10 animate-pulse"></div>
                <img 
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop" 
-                alt="Portrait Rannia Zaki" 
+                alt="Portrait Rania Zaki" 
                 className="rounded-[60px] w-full aspect-[4/5] object-cover shadow-2xl border-8 border-white animate-float"
               />
               

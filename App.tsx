@@ -210,7 +210,7 @@ const App: React.FC = () => {
                 RZ
               </div>
               <div>
-                <h3 className="text-2xl font-black text-slate-900 leading-none">Rannia Zaki</h3>
+                <h3 className="text-2xl font-black text-slate-900 leading-none">Rania Zaki</h3>
                 <p className="text-slate-500 font-bold mt-1 uppercase tracking-widest text-xs">Chef de Projet Digitaux</p>
               </div>
             </div>
@@ -223,7 +223,7 @@ const App: React.FC = () => {
           </div>
           
           <div className="mt-20 pt-10 border-t border-slate-50 text-center text-slate-400 font-medium">
-            &copy; {new Date().getFullYear()} Rannia Zaki — Conçu avec excellence digitale.
+            &copy; {new Date().getFullYear()} Rania Zaki — Conçu avec excellence digitale.
           </div>
         </div>
       </footer>

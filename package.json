@@ -1,9 +1,9 @@
 
 {
-  "name": "rannia-zaki-portfolio",
+  "name": "rania-zaki-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Portfolio professionnel de Rannia Zaki - Apprentie Chef de Projet Digitaux",
+  "description": "Portfolio professionnel de Rania Zaki - Apprentie Chef de Projet Digitaux",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
