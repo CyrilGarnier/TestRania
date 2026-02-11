@@ -15,11 +15,18 @@ export interface Education {
 
 export interface Skill {
   name: string;
-  level?: number; // 0 to 100 for visual bars
+  level?: number;
 }
 
 export interface Language {
   name: string;
   level: string;
   percentage: number;
+}
+
+export interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  icon: any;
 }

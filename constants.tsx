@@ -1,18 +1,19 @@
 
-import { Experience, Education, Language } from './types';
+import { Briefcase, Layout, Terminal, Users } from 'lucide-react';
+import { Experience, Education, Language, Project } from './types';
 
 export const EXPERIENCES: Experience[] = [
   {
     title: "Apprentie Chef de Projet Digitaux",
     company: "Enedis",
     location: "Courcouronnes",
-    period: "09/25 - En cours",
+    period: "09/25 - Présent",
     tasks: [
-      "Digitalisation des outils et supports internes",
-      "Coordination et suivi de projets",
-      "Création de supports de communication digitale",
-      "Animation et accompagnement des équipes",
-      "Organisation d'événements internes"
+      "Pilotage de la digitalisation des processus métiers internes",
+      "Conception UX/UI pour de nouveaux outils collaboratifs",
+      "Coordination transversale entre les équipes techniques et métiers",
+      "Stratégie de communication digitale et accompagnement au changement",
+      "Organisation et animation d'événements stratégiques"
     ]
   },
   {
@@ -21,11 +22,10 @@ export const EXPERIENCES: Experience[] = [
     location: "Courcouronnes",
     period: "08/23 - 08/25",
     tasks: [
-      "Gestion des événements",
-      "Organisation et animation des réunions",
-      "Création de supports de communication interne",
-      "Gestion de projet",
-      "Montages vidéos"
+      "Optimisation des flux d'information internes via des supports digitaux",
+      "Production de contenus vidéo (montage et storytelling)",
+      "Gestion logistique et événementielle des séminaires d'unité",
+      "Support à la transformation numérique des agents de terrain"
     ]
   },
   {
@@ -34,25 +34,31 @@ export const EXPERIENCES: Experience[] = [
     location: "Bagnolet",
     period: "08/21 - 08/24",
     tasks: [
-      "Mise en rayon",
-      "Participation à la fidélisation des clients",
-      "Gestion de la ligne de caisse",
-      "Service client",
-      "Vérification des moyens de paiement et de caisse"
+      "Gestion de la relation client en environnement dynamique",
+      "Optimisation du flux de passage en caisse",
+      "Fidélisation active et résolution de litiges"
     ]
+  }
+];
+
+export const PROJECTS: Project[] = [
+  {
+    title: "Digitalisation Enedis",
+    description: "Refonte des supports de communication internes vers des formats 100% interactifs.",
+    tags: ["Project Management", "UI Design", "Office 365"],
+    icon: Layout
   },
   {
-    title: "Préparatrice de commandes",
-    company: "G la Dalle",
-    location: "Évry",
-    period: "04/21 - 07/21",
-    tasks: [
-      "Prise de commandes",
-      "Préparation des menus",
-      "Gestion et rangement des stocks",
-      "Gestion de la salle",
-      "Encaissement client"
-    ]
+    title: "Stratégie Vidéo",
+    description: "Création d'une série de tutoriels vidéo pour l'onboarding des nouveaux arrivants.",
+    tags: ["CapCut", "Storytelling", "RH"],
+    icon: Terminal
+  },
+  {
+    title: "Événementiel Hybride",
+    description: "Organisation d'un séminaire d'unité mixant présentiel et outils digitaux de vote en direct.",
+    tags: ["Event Planning", "Digital Tools", "Coordination"],
+    icon: Users
   }
 ];
 
@@ -60,17 +66,12 @@ export const EDUCATIONS: Education[] = [
   {
     degree: "BACHELOR CHEF DE PROJET DIGITAUX",
     school: "CFA ITIS",
-    period: "2025 - En cours"
+    period: "2025 - 2026"
   },
   {
-    degree: "BTS NDRC Négociation Digitalisation de la Relation Client",
+    degree: "BTS NDRC (Digitalisation Relation Client)",
     school: "CFA ITIS",
     period: "2023 - 2025"
-  },
-  {
-    degree: "BTS CI Commerce International",
-    school: "CFA ITIS",
-    period: "Sept 2023 - Fév 2024"
   },
   {
     degree: "Baccalauréat Scientifique",
@@ -82,15 +83,15 @@ export const EDUCATIONS: Education[] = [
 export const LANGUAGES: Language[] = [
   { name: "Français", level: "Maternel", percentage: 100 },
   { name: "Arabe", level: "Courant", percentage: 95 },
-  { name: "Anglais", level: "Intermédiaire", percentage: 65 },
-  { name: "Espagnol", level: "Scolaire", percentage: 40 }
+  { name: "Anglais", level: "Intermédiaire (B2)", percentage: 70 },
+  { name: "Espagnol", level: "Scolaire", percentage: 45 }
 ];
 
-export const SKILLS_HARD = ["Canva / Cap Cut", "Pack Office", "Microsoft 365", "Figma / IA"];
-export const SKILLS_SOFT = ["Réactive", "À l'écoute", "Autonome", "Capacité d'adaptation"];
+export const SKILLS_HARD = ["Gestion de Projet", "Canva & CapCut", "Microsoft 365", "Figma", "Digital Workplace"];
+export const SKILLS_SOFT = ["Réactivité", "Intelligence Relationnelle", "Autonomie", "Adaptabilité"];
 export const INTERESTS = [
-  { name: "Lecture", color: "bg-amber-200 text-amber-900" },
-  { name: "Voyage", color: "bg-pink-200 text-pink-900" },
-  { name: "Bénévolat", color: "bg-orange-200 text-orange-900" },
-  { name: "Sport de combat", color: "bg-emerald-200 text-emerald-900" }
+  { name: "Lecture", color: "bg-indigo-100 text-indigo-700" },
+  { name: "Voyage", color: "bg-rose-100 text-rose-700" },
+  { name: "Bénévolat", color: "bg-amber-100 text-amber-700" },
+  { name: "Sport de combat", color: "bg-emerald-100 text-emerald-700" }
 ];
